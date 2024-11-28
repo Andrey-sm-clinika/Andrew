@@ -5,8 +5,8 @@ services:
     image: postgres:13
     environment:
       POSTGRES_DB: "django_db"
-      POSTGRES_USER: "kari"
-      POSTGRES_PASSWORD: "00789123"
+      POSTGRES_USER: "user"
+      POSTGRES_PASSWORD: "0123456"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
